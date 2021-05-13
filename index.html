@@ -32,8 +32,6 @@
     <link href="assets/css/style.css" rel="stylesheet">
 
 
-
-
     <!-- social sharing -->
     <meta name="author" content="Kunal Pandharkar - Kunal Niwas , Adarsh Colony , Purna 431511">
     <meta name="twitter:title" content="Kp|Technologies - Leading Software Company">
@@ -47,7 +45,14 @@
     <meta property="og:image:height" content="1024">
 
     <title>KP Technologies - Web & Android Development</title>
-
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "url": "https://kp-technologies.com/",
+          "logo": "https://kp-technologies.com/assets/img/logo.png"
+        }
+        </script>
 </head>
 
 <body>
@@ -57,44 +62,66 @@
         <div class="container d-flex align-items-center">
 
             <!-- Uncomment below if you prefer to use an image logo -->
-            <a href="index" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+            <a href="https://kp-technologies.com/" class="logo me-auto logowhite"><img src="assets/img/logo white.png"
+                    alt="" class="img-fluid"></a>
+            <a href="https://kp-technologies.com/" class="logo me-auto logoblack"><img src="assets/img/logo.png" alt=""
+                    class="img-fluid"></a>
 
             <nav id="navbar" class="navbar order-last order-lg-0">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                    <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+                    <li><a class="nav-link scrollto active homelinks" href="https://kp-technologies.com">Home</a></li>
+                    <li class="dropdown "><a href="#" class="homelinks"><span>Services</span> <i
+                                class="bi bi-chevron-down"></i></a>
                         <ul class="dropdown-active">
                             <li><a href="android_development">App Development</a></li>
                             <li><a href="website_development">Websites </a></li>
+                            <li><a href="uiuxdesign">UI/UX Design </a></li>
                             <li><a href="erp_solutions">ERP Solutions</a></li>
-                            <li><a href="seo">SEO Optimization</a></li>
+                            <li><a href="seo">SEO Ranking</a></li>
                             <li><a href="itconsultancy">IT Consultancy</a></li>
                             <li><a href="rnd">R&D Support</a></li>
+                            <li data-bs-toggle="modal" data-bs-target="#buy-ticket-modal"><a>Web Hosting</a></li>
+                            <li data-bs-toggle="modal" data-bs-target="#buy-ticket-modal"><a>IT Training</a>
+                            </li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#" class="homelinks"><span>Products</span> <i
+                                class="bi bi-chevron-down"></i></a>
                         <ul class="dropdown-active">
-                            <li><a href="website_development">Ready-To-Use Websites</a></li>
-                            <li><a href="ecommerce">Ecommerce Solution </a></li>
-                            <li><a href="onlineexam">Online Examination System</a></li>
-                            <li><a href="educationalerp">Educational ERP/CMS/CRM</a></li>
+                            <li><a href="ecommerce">Ecommerce Solution
+                                </a></li>
+                            <li><a href="erp_solutions">Business ERP </a>
+                            </li>
+                            <li><a href="onlineexam">Online Examination
+                                    System</a></li>
+                            <li><a href="educationalerp">Educational ERP</a></li>
+                            <li><a href="seo">SEO Ranking</a>
+                            </li>
+                            <li><a href="website_development">Persnol App/Site</a></li>
+                            <li><a href="" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal">CRM/CMS</a></li>
+                            <li><a href="" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal">Advertisement
+                                    Material</a></li>
                             <li><a href="billinginvoice">Billing & Invoice Solution</a></li>
-                            <li><a href="seo">SEO Optimization</a></li>
+                            <li><a href="website_development">Ready-To-Use Websites</a></li>
+                            <li><a href="" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal">Cloud Services</a>
+                            </li>
+                            <li><a href="" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal">Promotional
+                                    Videos</a></li>
                         </ul>
                     </li>
-
-                    <li><a class="nav-link scrollto" href="contactus">Contact</a></li>
-
-
+                    <li><a class="nav-link scrollto homelinks" href="contactus">Contact</a></li>
                 </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
+                <i class="bi bi-list mobile-nav-toggle toggleicon"></i>
             </nav>
             <!-- .navbar -->
 
-            <div class="social-links">
-                <a href="tel:7774843561" class="linkedin"><i class="bi bi-telephone-fill"></i></a>
-                <a href="mailto:kptechnologiz@gmail.com" class=""><i class="bi bi-envelope-fill"></i></a>
-                <a href="#feedbackform" class=""><i class="bi bi-chat-left-text-fill"></i></i></a>
+            <div class="social-links navbarsociallinks">
+                <a href="https://www.facebook.com/KPTechnologies-107027698117641/" class="facebook"><i
+                        class="bi bi-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/kunal-pandharkar-513994188/" class="linkedin"><i
+                        class="bi bi-linkedin"></i></a>
+                <a href="https://www.instagram.com/kp_technologies/" class="instagram"><i
+                        class="bi bi-instagram"></i></a>
             </div>
 
         </div>
@@ -102,198 +129,73 @@
     <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
-    <section id="hero" class="clearfix">
-        <div class="container d-flex h-100">
-            <div class="row justify-content-center align-self-center" data-aos="fade-up">
-                <div class="col-lg-6 intro-info order-lg-first order-last" data-aos="zoom-in" data-aos-delay="100">
-                    <h2>Providing The <span>Simplest</span> Solutions For Most <br> <span> Complex </span>Problems !
-                    </h2>
-                    <div>
-                        <a href="#services" class="btn-get-started scrollto">Explore Services</a>
-                    </div>
-                </div>
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container" data-aos="zoom-out" data-aos-delay="100">
+            <h1>Welcome to <span>Kp Technologies</span></h1>
+            <h2>Providing The Simplest Solutions For Most Complex Problems !</h2>
+            <div class="d-flex">
+                <a href="#services" class="btn-get-started scrollto">Get Started</a>
 
-                <div class="col-lg-6 intro-img order-lg-last order-first" data-aos="zoom-out" data-aos-delay="200">
-                    <img src="assets/img/homevector.png" alt="KP Technologies - Web & Android Development"
-                        class="img-fluid">
-                </div>
+                <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i
+                        class="bi bi-play-circle"></i><span>Watch Video</span></a>
+
             </div>
-
         </div>
     </section>
     <!-- End Hero -->
 
+
     <main id="main">
-
-        <!-- ======= Services Section ======= -->
-        <section id="services" class="services section-bg">
-            <div class="container" data-aos="fade-up">
-
-                <header class="section-header">
-                    <h3>Services</h3>
-                    <p>
-                        Building a good customer experience does not happen by accident. It happens by design</p>
-                </header>
-
-                <div class="row">
-                    <div class="col-md-6 col-lg-4 wow bounceInUp" data-aos="zoom-in" data-aos-delay="100"
-                        onclick="location.href = 'android_development';">
-
-                        <div class="box">
-                            <div class="icon" style="background: #fceef3;">
-                                <img src="assets/img/android app1.svg" alt="">
-                            </div>
-                            <h4 class="title"><a href="android_development">Android Apps</a></h4>
-                            <p class="description">
-                                Get full functional and customized apps for your business and shops
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200"
-                        onclick="location.href = 'website_development';">
-                        <div class="box">
-                            <div class="icon" style="background: #fff0da;">
-                                <img src="assets/img/website3.svg" alt="">
-                            </div>
-                            <h4 class="title"><a href="website_development">Websites</a></h4>
-                            <p class="description">Get full functional and standard websites for your business and shops
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300"
-                        onclick="location.href = 'erp_solutions';">
-                        <div class="box">
-                            <div class="icon" style="background: #e6fdfc;">
-                                <img src="assets/img/erp solutions2.svg" alt="">
-                            </div>
-                            <h4 class="title"><a href="erp_solutions">ERP Solutions</a></h4>
-                            <p class="description">Make your all process and workflow digital with our enterprise
-                                solutions</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow" data-aos="zoom-in" data-aos-delay="100"
-                        onclick="location.href = 'rnd';">
-                        <div class="box">
-                            <div class="icon" style="background: #eafde7;">
-                                <img src="assets/img/r&d3.svg" alt="">
-                            </div>
-                            <h4 class="title"><a href="rnd">R&D Support</a></h4>
-                            <p class="description">Plan, Build, Manage, Advertise and grow your business with our
-                                digital tools, softwares and apps
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200"
-                        onclick="location.href = 'itconsultancy';">
-                        <div class=" box">
-                            <div class="icon" style="background: #e1eeff;">
-                                <img src="assets/img/itconsultancy (3).png" alt="">
-                            </div>
-                            <h4 class="title"><a href="itconsultancy">IT Consultancy</a></h4>
-                            <p class="description">Get effective strategy for managing your business operations, data
-                                and get full time support IT services</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300"
-                        onclick="location.href = 'seo';">
-                        <div class="box">
-                            <div class="icon" style="background: #ecebff;">
-                                <img src="assets/img/seo2.svg" alt="">
-                            </div>
-                            <h4 class="title"><a href="seo">SEO Optimization</a></h4>
-                            <p class="description">Rank #1 on google searches, increase your traffic and boost up your
-                                site perfomance with our SEO tools </p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-        <!-- End Services Section -->
-
         <!-- ======= Why Us Section ======= -->
         <section id="why-us" class="why-us">
-            <div class="container-fluid" data-aos="fade-up">
-
-                <header class="section-header">
-                    <h3>Why choose us?</h3>
-
-                </header>
+            <div class="container-fluid">
 
                 <div class="row">
 
-                    <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="why-us-img">
-                            <img src="assets/img/group-work-photo.jpg" alt="" class="img-fluid">
+                    <div class="col-lg-5 align-items-stretch position-relative video-box"
+                        style='background-image: url("assets/img/logo.jpg");' data-aos="fade-right">
+                        <a href="https://youtu.be/Fav8Fvt_HZs" class="glightbox play-btn mb-4" data-vbtype="video"
+                            data-autoplay="true"></a>
+                    </div>
+
+                    <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch"
+                        data-aos="fade-left">
+
+                        <div class="content">
+                            <h3>A Leading <strong>Sofware Comapny</strong></h3>
+                            <p>
+                                <strong>Kp Technologies </strong> is a fastest growing software company which provides
+                                full functional and quality android apps, websites as well as it offers IT consultancy,
+                                SEO services and ERP solutions for your business
                         </div>
-                    </div>
+                        <div class="row counters" data-aos="fade-up" data-aos-delay="100">
 
-                    <div class="col-lg-6">
-                        <div class="why-us-content">
-                            <p id="who_are_we_p">
-                                “ We are <b>passsionate engineering students</b> towards the increasing trends of
-                                technologies in the market. by commiting our domain expertise with our passion to
-                                harness technology innovation, we are committed to deliver
-                                value-based, high-end solutions to our customers.”
-                            </p>
-
-
-
-                            <div class="features clearfix" data-aos="fade-up" data-aos-delay="100">
-                                <i class="bi bi-book-half" style="color: #f058dc;"></i>
-                                <h4>Continuous Learning</h4>
-                                <p>Learn continuously there is always "One More Thing To Learn".</p>
+                            <div class="col-lg-3 col-6 text-center">
+                                <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1"
+                                    class="purecounter"></span>
+                                <p>Clients</p>
                             </div>
 
-                            <div class="features clearfix" data-aos="fade-up" data-aos-delay="200">
-                                <i class="bi bi-battery-charging" style="color: #ffb774;"></i>
-                                <h4>Energetic</h4>
-                                <p>Passion Is Energy. Feel The Power That Comes From Focusing On What Excites You.</p>
+                            <div class="col-lg-3 col-6 text-center">
+                                <span data-purecounter-start="0" data-purecounter-end="67" data-purecounter-duration="1"
+                                    class="purecounter"></span>
+                                <p>Projects</p>
                             </div>
 
-                            <div class="features clearfix" data-aos="fade-up" data-aos-delay="300">
-                                <i class="bi bi-cpu-fill" style="color: #589af1;"></i>
-                                <h4>Aware Of Latest Trends</h4>
-                                <p>You Will Never Get Bored When You Try Something New. There Is No Limit What You Can
-                                    Do.</p>
+                            <div class="col-lg-3 col-6 text-center">
+                                <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1"
+                                    class="purecounter"></span>
+                                <p>Years</p>
+                            </div>
+
+                            <div class="col-lg-3 col-6 text-center">
+                                <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1"
+                                    class="purecounter"></span>
+                                <p>Team Members</p>
                             </div>
 
                         </div>
 
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="container">
-                <div class="row counters" data-aos="fade-up" data-aos-delay="100">
-
-                    <div class="col-lg-3 col-6 text-center">
-                        <span data-purecounter-start="0" data-purecounter-end="40" data-purecounter-duration="1"
-                            class="purecounter"></span>
-                        <p>Clients</p>
-                    </div>
-
-                    <div class="col-lg-3 col-6 text-center">
-                        <span data-purecounter-start="0" data-purecounter-end="57" data-purecounter-duration="1"
-                            class="purecounter"></span>
-                        <p>Projects</p>
-                    </div>
-
-                    <div class="col-lg-3 col-6 text-center">
-                        <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1"
-                            class="purecounter"></span>
-                        <p>Years</p>
-                    </div>
-
-                    <div class="col-lg-3 col-6 text-center">
-                        <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1"
-                            class="purecounter"></span>
-                        <p>Team Members</p>
                     </div>
 
                 </div>
@@ -301,6 +203,291 @@
             </div>
         </section>
         <!-- End Why Us Section -->
+
+
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services section-bg">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-header">
+                    <h2>Services</h2>
+                </div>
+                <div class="row">
+                    <div class="col-4 wow bounceInUp" data-aos="zoom-in" data-aos-delay="100"
+                        onclick="location.href = 'android_development';">
+
+                        <div class="box">
+                            <div class="icon">
+                                <img src="assets/img/android app1.svg" alt="">
+                            </div>
+                            <p class="title"><a href="android_development">Android Apps</a></p>
+                        </div>
+                    </div>
+
+                    <div class="col-4" data-aos="zoom-in" data-aos-delay="200"
+                        onclick="location.href = 'website_development';">
+                        <div class="box">
+                            <div class="icon">
+                                <img src="assets/img/website3.svg" alt="">
+                            </div>
+                            <p class="title"><a href="website_development">Websites</a></p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-4" data-aos="zoom-in" data-aos-delay="300"
+                        onclick="location.href = 'erp_solutions';">
+                        <div class="box">
+                            <div class="icon">
+                                <img src="assets/img/erp solutions2.svg" alt="">
+                            </div>
+                            <p class="title"><a href="erp_solutions">ERP Solutions</a></p>
+
+                        </div>
+                    </div>
+                    <div class="col-4 wow" data-aos="zoom-in" data-aos-delay="100"
+                        onclick="location.href = 'uiuxdesign';">
+                        <div class="box">
+                            <div class="icon">
+                                <img src="assets/img/uiux.svg" alt="">
+                            </div>
+                            <p class="title"><a href="uiuxdesign">UI/UX Design</a></p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-4 " data-aos="zoom-in" data-aos-delay="200" onclick="location.href = 'seo';">
+                        <div class=" box">
+                            <div class="icon">
+                                <img src="assets/img/seo.svg" alt="">
+                            </div>
+                            <p class="title"><a href="seo">SEO Ranking</a></p>
+
+                        </div>
+                    </div>
+                    <div class="col-4" data-aos="zoom-in" data-aos-delay="300"
+                        onclick="location.href = 'itconsultancy';">
+                        <div class="box">
+                            <div class="icon">
+                                <img src="assets/img/itconsultancy (3).png" alt="">
+                            </div>
+                            <p class="title"><a href="itconsultancy">IT Consultancy</a></p>
+
+                        </div>
+                    </div>
+                    <div class="col-4 wow" data-aos="zoom-in" data-aos-delay="100" onclick="location.href = 'rnd';">
+                        <div class="box">
+                            <div class="icon">
+                                <img src="assets/img/r&d3.svg" alt="">
+                            </div>
+                            <p class="title"><a href="rnd">R&D Support</a></p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-4 " data-aos="zoom-in" data-aos-delay="200">
+                        <div class=" box" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal">
+                            <div class="icon">
+                                <img src="assets/img/webhosting.svg" alt="">
+                            </div>
+                            <p class="title"><a>Web Hosting</a></p>
+
+                        </div>
+                    </div>
+                    <div class="col-4" data-aos="zoom-in" data-aos-delay="300" data-bs-toggle="modal"
+                        data-bs-target="#buy-ticket-modal">
+                        <div class="box">
+                            <div class="icon">
+                                <img src="assets/img/it_training.svg" alt="">
+                            </div>
+                            <p class="title"><a>IT Training</a></p>
+
+                        </div>
+                    </div>
+                </div>
+                <!--  style="background: #d8ffff;" -->
+            </div>
+        </section>
+        <!-- End Services Section -->
+
+        <section id="features" class="features">
+
+            <div class="container" data-aos="fade-up">
+                <div class="section-header">
+                    <h2>Products</h2>
+                </div>
+
+                <ul class="nav nav-tabs row d-flex">
+                    <li class="nav-item col-3">
+                        <a class="nav-link active show text-center" href="ecommerce">
+                            <h4 class="d-lg-block">Ecommerce</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-3">
+                        <a class="nav-link text-center" href="erp_solutions">
+                            <h4 class="d-lg-block">Business ERP</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-3">
+                        <a class="nav-link text-center" href="onlineexam">
+                            <h4 class=" d-lg-block">Online Exam</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-3">
+                        <a class="nav-link text-center" href="educationalerp">
+                            <h4 class="d-lg-block">Education ERP</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-3 mt-4">
+                        <a class="nav-link text-center" href="seo">
+                            <h4 class="d-lg-block">SEO Ranking</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-3 mt-4">
+                        <a class="nav-link text-center" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal">
+                            <h4 class=" d-lg-block">Persnol App/Site</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-3 mt-4">
+                        <a class="nav-link text-center" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal">
+                            <h4 class="d-lg-block">CRM/CMS</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-3 mt-4">
+                        <a class="nav-link text-center" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal">
+                            <h4 class="d-lg-block">Advertising Material</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-3 mt-4">
+                        <a class="nav-link text-center" href="billinginvoice">
+                            <h4 class="d-lg-block">Billing & Invoice</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-3 mt-4">
+                        <a class="nav-link text-center" href="website_development">
+                            <h4 class=" d-lg-block">Read-To-Use Websites</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-3 mt-4">
+                        <a class="nav-link text-center" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal">
+                            <h4 class="d-lg-block">Cloud services</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item col-3 mt-4">
+                        <a class="nav-link text-center" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal">
+                            <h4 class="d-lg-block">Promotional videos</h4>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+
+        <!-- Model  -->
+        <!-- Modal Order Form -->
+        <div id="buy-ticket-modal" class="modal fade">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Products Enquiry</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="callusbtn text-center">
+                            <p class="cta-text1">We would love to hear from you, feel free to contact us anytime !</p>
+                            <a href="tel:7774843561" class="btn-get-started scrollto">Call Us</a>
+                        </div>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+
+        <!-- end Model -->
+
+        <!-- Timeline -->
+        <section id="timelinesection">
+
+            <div class="container">
+                <div class="section-header">
+                    <h2>How We Work</h2>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-badge"><i class="bi bi-people-fill"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Meeting & Discussion</h4>
+                                <!-- <p><small style="color: white;"><i class="bi bi-clock"></i> 11 hours ago via
+                                        Twitter</small></p> -->
+                            </div>
+                            <div class="timeline-body">
+                                <p>We connect with our clients for requirements and specifications gathering before
+                                    drawing any proposal for them.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-badge warning"><i class="bi bi-lightbulb"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Concepts & Initiatives</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>After knowing client's requirements, our specialists share the best possible ideas
+                                    and initiatives to deliver the best solutions for selected IT services.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge danger"><i class="bi bi-laptop"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">
+                                    Testing & Trying</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>After finalizing plans and ideas, we start working accordingly and give remarks on
+                                    the outcomes and adjustments.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-badge danger"><i class="bi bi-cloud-check-fill"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Execute & Install</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Once the final agreement is done, everything takes place as per the arrangement.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge info"><i class="bi bi-card-list"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Deployment & feedback</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>
+                                    Finally, the product is delivered to the client and we take the feedback and final
+                                    changes from the client.
+                                </p>
+
+
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+        <!-- timeline end -->
+
 
         <!-- ======= Call To Action Section ======= -->
         <section id="call-to-action" class="call-to-action">
@@ -320,178 +507,11 @@
         </section>
         <!--  End Call To Action Section -->
 
-
-
-
-        <!-- ======= Testimonials Section ======= -->
-        <section id="testimonials" class="testimonials">
-            <div class="container" data-aos="zoom-in">
-
-                <header class="section-header">
-                    <h3>Our Motivation</h3>
-                </header>
-
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-
-                        <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
-                            <div class="swiper-wrapper">
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <img src="assets/img/chhatrapati-shivaji-maharaj-bhushan.jpg"
-                                            class="testimonial-img" alt="">
-                                        <h3>CHHATRAPATI SHIVAJI MAHARAJ</h3>
-
-                                        <p>
-                                            Self-confidence provides strength and Power impart knowledge. Knowledge
-                                            provides stability and stability leads to victory</p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <img src="assets/img/drbabasaheb.jpg" class="testimonial-img" alt="">
-                                        <h3>Dr Babasaheb Ambedkar</h3>
-                                        <p>
-                                            Men are mortal. So are ideas. An idea needs propagation as much as a plant
-                                            needs watering. Otherwise, both will wither and die.</p>
-                                    </div>
-                                </div>
-                                <!-- End testimonial item -->
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <img src="assets/img/abdulkalamprofile.jpg" class="testimonial-img" alt="">
-                                        <h3>Sir APJ Abdul Kalam</h3>
-
-                                        <p>
-                                            " Creativity is seeing the same thing but thinking differently "</p>
-                                    </div>
-                                </div>
-                                <!-- End testimonial item -->
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <img src="assets/img/sirratantata.jpg" class="testimonial-img" alt="">
-                                        <h3>Sir Ratan Tata</h3>
-                                        <p>
-                                            " If it stands the test of public scrutiny, do it… If it doesn’t stand the
-                                            test of public scrutiny then don’t do it." </p>
-                                    </div>
-                                </div>
-                                <!-- End testimonial item -->
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <img src="assets/img/elon.jpg" class="testimonial-img" alt="">
-                                        <h3>Elon Musk</h3>
-                                        <p>
-                                            "When something is important enough, you do it even if the odds are not in
-                                            your favor." </p>
-                                    </div>
-                                </div>
-                                <!-- End testimonial item -->
-
-
-                            </div>
-                            <div class="swiper-pagination"></div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <!-- End Testimonials Section -->
-
-
-        <!-- ======= F.A.Q Section ======= -->
-        <section id="faq" class="faq">
-            <div class="container" data-aos="fade-up">
-                <header class="section-header">
-                    <h3>Frequently Asked Questions</h3>
-                    <p>Part of being successful is about asking questions and listening to the answers !</p>
-                </header>
-
-                <ul class="faq-list" data-aso="fade-up" data-aos-delay="100">
-
-                    <li>
-                        <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">
-                            What is 5 free updates scheme? <i class="bi bi-chevron-down icon-show"></i><i
-                                class="bi bi-chevron-up icon-close"></i></div>
-                        <div id="faq2" class="collapse" data-bs-parent=".faq-list">
-                            <p>
-                                When the app/website/software is deployed to customer, the customer realizes that he/she
-                                has forgotten to tell some important featured to be added in the app/website. So any 5
-                                features will be updated/added For free of cost.
-                            </p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">
-                            What is 2 years of free support ? <i class="bi bi-chevron-down icon-show"></i><i
-                                class="bi bi-chevron-up icon-close"></i></div>
-                        <div id="faq3" class="collapse" data-bs-parent=".faq-list">
-                            <p>
-                                Customers are provided with free 2 years maintainance for app/website/software.
-                            </p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">
-                            What extra things i will get along with app/website/software ?<i
-                                class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
-                        </div>
-                        <div id="faq4" class="collapse" data-bs-parent=".faq-list">
-                            <p>
-                                Customers will get 2 years of free service, 5 free updates and changes, Admin Panel to
-                                manage your data, Userguide and Manuals.
-                            </p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">
-                            We being student will be able to manage business related things ? <i
-                                class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
-                        </div>
-                        <div id="faq5" class="collapse" data-bs-parent=".faq-list">
-                            <p>
-                                We have delivered more than 40 successfull projects to our clients and managing these
-                                projects very well. we love our work and have so much energy that we put in our work.
-                            </p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">
-                            Why we decided to open a software company ? <i class="bi bi-chevron-down icon-show"></i><i
-                                class="bi bi-chevron-up icon-close"></i>
-                        </div>
-                        <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-                            <p>
-                                As we are computer engineering students,we have very strong hand in Software
-                                Develpoment. Since Pandemic started, we came to know that Indian economy is broken down,
-                                beacuase of very few businesses. Everyone wants to get a job, very few wants to be a
-                                job provider. This is the reason why we decided to start our own company and support
-                                small startups & businesses for their growth.
-                            </p>
-
-                        </div>
-                    </li>
-
-                </ul>
-
-            </div>
-        </section>
-        <!-- End F.A.Q Section -->
-
     </main>
     <!-- End #main -->
 
     <!-- ======= Footer ======= -->
-    <footer id="footer" class="section-bg">
+    <footer id="footer" class="">
         <div class="footer-top">
             <div class="container">
 
@@ -504,8 +524,8 @@
                             <div class="col-sm-6">
 
                                 <div class="footer-info">
-                                    <a href="index" class="logo me-auto"><img src="assets/img/logo.png" alt=""
-                                            class="img-fluid"></a>
+                                    <a href="https://kp-technologies.com/" class="logo me-auto"><img
+                                            src="assets/img/logo white.png" alt="" class="img-fluid"></a>
 
                                     <p>We are here to provide everything for your Business and to facilitate you.
                                         KpTechnologies will make your business endless and worryless !
@@ -514,8 +534,9 @@
 
                                 <div class="footer-newsletter">
                                     <h4>Our Newsletter</h4>
-                                    <p>We are here to provide everything for your Business and to facilitate you.
-                                        KpTechnologies will make your business endless and worryless !
+                                    <p>
+                                        Sign up to our newsletter, so you can be the first to find out the latest news
+                                        and tips about our applications, as well as general updates !
                                     </p>
                                     <form action="" method="post">
                                         <input type="email" name="email"><input type="submit" value="Subscribe">
@@ -528,11 +549,16 @@
                                 <div class="footer-links">
                                     <h4>Useful Links</h4>
                                     <ul>
-                                        <li><a href="#hero">Home</a></li>
-                                        <li><a href="#services">Services</a></li>
-                                        <li><a href="#why-us">About us</a></li>
-                                        <li><a href="android_development">Android apps</a></li>
-                                        <li><a href="website_development">Websites</a></li>
+                                        <li><i class="bi bi-chevron-right rightarr"></i> <a href="#hero">Home</a></li>
+                                        <li><i class="bi bi-chevron-right rightarr"></i> <a
+                                                href="#services">Services</a>
+                                        </li>
+                                        <li><i class="bi bi-chevron-right rightarr"></i> <a
+                                                href="#features">Products</a></li>
+                                        <li><i class="bi bi-chevron-right rightarr"></i> <a
+                                                href="android_development">Android apps</a></li>
+                                        <li><i class="bi bi-chevron-right rightarr"></i> <a
+                                                href="website_development">Websites</a></li>
 
                                     </ul>
                                 </div>
@@ -572,7 +598,7 @@
                         <div class="form">
 
                             <h4>Send us a message</h4>
-                            <p>We would love to hear from you, feel free to contact us anytime !</p>
+                            <!-- <p>We would love to hear from you, feel free to contact us anytime !</p> -->
 
                             <form role="form" class="php-email-form" method="POST">
                                 <div class="form-group">
@@ -624,7 +650,7 @@
     <!-- End  Footer -->
 
     <!-- ======= Footer ======= -->
-    <footer id="footer" class="section-bg">
+    <footer id="footer" class="pb-4">
         <div class="footer-top">
             <div class="container">
 
@@ -774,9 +800,10 @@
 
         </div>
 
-        <div class="container">
+        <div class="container" id="copyright">
             <div class="copyright">
-                &copy; Copyright <strong>KpTechnologies</strong>. All Rights Reserved
+                &copy; Copyright <a href="https://kp-technologies.com"><strong>KpTechnologies</strong></a>. All Rights
+                Reserved
             </div>
             <div class="credits">
 
@@ -805,6 +832,8 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+
+
 
 </body>
 

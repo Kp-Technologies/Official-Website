@@ -110,49 +110,71 @@
 
 <body>
 
-    <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+      <!-- ======= Header ======= -->
+      <header id="header" class="fixed-top d-flex align-items-center header-transparent">
         <div class="container d-flex align-items-center">
 
             <!-- Uncomment below if you prefer to use an image logo -->
-            <a href="index" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+            <a href="https://kp-technologies.com/" class="logo me-auto logowhite"><img src="assets/img/logo white.png"
+                    alt="" class="img-fluid"></a>
+            <a href="https://kp-technologies.com/" class="logo me-auto logoblack"><img src="assets/img/logo.png" alt=""
+                    class="img-fluid"></a>
 
             <nav id="navbar" class="navbar order-last order-lg-0">
                 <ul>
-                    <li><a class="nav-link scrollto " href="index">Home</a></li>
-                    <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+                    <li><a class="nav-link scrollto active homelinks" href="https://kp-technologies.com">Home</a></li>
+                    <li class="dropdown "><a href="#" class="homelinks"><span>Services</span> <i
+                                class="bi bi-chevron-down"></i></a>
                         <ul class="dropdown-active">
                             <li><a href="android_development">App Development</a></li>
                             <li><a href="website_development">Websites </a></li>
+                            <li><a href="uiuxdesign">UI/UX Design </a></li>
                             <li><a href="erp_solutions">ERP Solutions</a></li>
-                            <li><a href="seo">SEO Optimization</a></li>
+                            <li><a href="seo">SEO Ranking</a></li>
                             <li><a href="itconsultancy">IT Consultancy</a></li>
                             <li><a href="rnd">R&D Support</a></li>
+                            <li data-bs-toggle="modal" data-bs-target="#buy-ticket-modal"><a>Web Hosting</a></li>
+                            <li data-bs-toggle="modal" data-bs-target="#buy-ticket-modal"><a>IT Training</a>
+                            </li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#" class="homelinks"><span>Products</span> <i
+                                class="bi bi-chevron-down"></i></a>
                         <ul class="dropdown-active">
-                            <li><a href="website_development">Ready-To-Use Websites</a></li>
-                            <li><a href="ecommerce">Ecommerce Solution </a></li>
-                            <li><a href="onlineexam">Online Examination System</a></li>
-                            <li><a href="educationalerp">Educational ERP/CMS/CRM</a></li>
+                            <li><a href="ecommerce">Ecommerce Solution
+                                </a></li>
+                            <li><a href="erp_solutions">Business ERP </a>
+                            </li>
+                            <li><a href="onlineexam">Online Examination
+                                    System</a></li>
+                            <li><a href="educationalerp">Educational ERP</a></li>
+                            <li><a href="seo">SEO Ranking</a>
+                            </li>
+                            <li><a href="website_development">Persnol App/Site</a></li>
+                            <li><a href="" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal">CRM/CMS</a></li>
+                            <li><a href="" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal">Advertisement
+                                    Material</a></li>
                             <li><a href="billinginvoice">Billing & Invoice Solution</a></li>
-                            <li><a href="seo">SEO Optimization</a></li>
+                            <li><a href="website_development">Ready-To-Use Websites</a></li>
+                            <li><a href="" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal">Cloud Services</a>
+                            </li>
+                            <li><a href="" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal">Promotional
+                                    Videos</a></li>
                         </ul>
                     </li>
-
-                    <li><a class="nav-link scrollto active" href="#">Contact</a></li>
-
-
+                    <li><a class="nav-link scrollto homelinks" href="contactus">Contact</a></li>
                 </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
+                <i class="bi bi-list mobile-nav-toggle toggleicon"></i>
             </nav>
             <!-- .navbar -->
 
-            <div class="social-links">
-                <a href="tel:7774843561" class="linkedin"><i class="bi bi-telephone-fill"></i></a>
-                <a href="mailto:kptechnologiz@gmail.com" class=""><i class="bi bi-envelope-fill"></i></a>
-                <a href="#feedbackform" class=""><i class="bi bi-chat-left-text-fill"></i></i></a>
+            <div class="social-links navbarsociallinks">
+                <a href="https://www.facebook.com/KPTechnologies-107027698117641/" class="facebook"><i
+                        class="bi bi-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/kunal-pandharkar-513994188/" class="linkedin"><i
+                        class="bi bi-linkedin"></i></a>
+                <a href="https://www.instagram.com/kp_technologies/" class="instagram"><i
+                        class="bi bi-instagram"></i></a>
             </div>
 
         </div>
@@ -160,34 +182,31 @@
     <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
-    <section id="hero" class="clearfix">
-        <div class="container d-flex h-100">
-            <div class="row justify-content-center align-self-center" data-aos="fade-up">
-                <div class="col-lg-6 intro-info order-lg-first order-last" data-aos="zoom-in" data-aos-delay="100">
-                    <h2>We Would <span>Love</span> To <span>Hear </span>From You !
-                    </h2>
-                    <div>
-                        <a href="index" class="btn-get-started scrollto">Go To Homepage</a>
-                    </div>
-                </div>
-                <div class="col-lg-6 intro-img order-lg-last order-first contactimg" data-aos="zoom-out"
-                    data-aos-delay="200">
-                    <img src="assets/img/contactus.png" alt="KP technologies - Contact Us" class="img-fluid">
-                </div>
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container" data-aos="zoom-out" data-aos-delay="100">
+            <h1>We Would <span>Love To Hear</span> From You </h1>
+            <h2>Providing The Simplest Solutions For Most Complex Problems !</h2>
+            <div class="d-flex">
+                <a href="https://kp-technologies.com" class="btn-get-started scrollto"><i
+                        class="bi bi-arrow-left-square mb-4"></i> Homepage</a>
+
+                <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i
+                        class="bi bi-play-circle"></i><span>Watch Video</span></a>
 
             </div>
-
         </div>
     </section>
     <!-- End Hero -->
 
+
     <!-- ======= F.A.Q Section ======= -->
     <section id="faq" class="faq">
         <div class="container" data-aos="fade-up">
-            <header class="section-header">
-                <h3>Frequently Asked Questions</h3>
-                <p>Part of being successful is about asking questions and listening to the answers !</p>
-            </header>
+
+            <div class="section-header pb-4">
+                <h2>FAQ</h2>
+            </div>
+
 
             <ul class="faq-list" data-aso="fade-up" data-aos-delay="100">
 
@@ -297,8 +316,9 @@
     </section>
     <!-- End F.A.Q Section -->
 
+  
     <!-- ======= Footer ======= -->
-    <footer id="footer" class="section-bg">
+    <footer id="footer" class="">
         <div class="footer-top">
             <div class="container">
 
@@ -311,20 +331,44 @@
                             <div class="col-sm-6">
 
                                 <div class="footer-info">
-                                    <a href="index" class="logo me-auto"><img src="assets/img/logo.png" alt=""
-                                            class="img-fluid"></a>
+                                    <a href="https://kp-technologies.com/" class="logo me-auto"><img
+                                            src="assets/img/logo white.png" alt="" class="img-fluid"></a>
 
                                     <p>We are here to provide everything for your Business and to facilitate you.
                                         KpTechnologies will make your business endless and worryless !
                                     </p>
                                 </div>
 
-
+                                <div class="footer-newsletter">
+                                    <h4>Our Newsletter</h4>
+                                    <p>
+                                        Sign up to our newsletter, so you can be the first to find out the latest news
+                                        and tips about our applications, as well as general updates !
+                                    </p>
+                                    <form action="" method="post">
+                                        <input type="email" name="email"><input type="submit" value="Subscribe">
+                                    </form>
+                                </div>
 
                             </div>
 
                             <div class="col-sm-6">
-
+                                <div class="footer-links">
+                                    <h4>Useful Links</h4>
+                                    <ul>
+                                        <li><i class="bi bi-chevron-right rightarr"></i> <a
+                                                href="https://kp-technologies.com#hero">Home</a></li>
+                                        <li><i class="bi bi-chevron-right rightarr"></i> <a
+                                                href="https://kp-technologies.com#services">Services</a>
+                                        </li>
+                                        <li><i class="bi bi-chevron-right rightarr"></i> <a
+                                                href="https://kp-technologies.com#features">Products</a></li>
+                                        <li><i class="bi bi-chevron-right rightarr"></i> <a
+                                                href="android_development">Android apps</a></li>
+                                        <li><i class="bi bi-chevron-right rightarr"></i> <a href="website_development">
+                                                Websites</a></li>
+                                    </ul>
+                                </div>
 
                                 <div class="footer-links">
                                     <h4>Contact Us</h4>
@@ -361,7 +405,7 @@
                         <div class="form">
 
                             <h4>Send us a message</h4>
-                            <p>We would love to hear from you, feel free to contact us anytime !</p>
+                            <!-- <p>We would love to hear from you, feel free to contact us anytime !</p> -->
 
                             <form role="form" class="php-email-form" method="POST">
                                 <div class="form-group">
@@ -413,7 +457,7 @@
     <!-- End  Footer -->
 
     <!-- ======= Footer ======= -->
-    <footer id="footer" class="section-bg">
+    <footer id="footer" class="pb-4">
         <div class="footer-top">
             <div class="container">
 
@@ -563,9 +607,10 @@
 
         </div>
 
-        <div class="container">
+        <div class="container" id="copyright">
             <div class="copyright">
-                &copy; Copyright <strong>KpTechnologies</strong>. All Rights Reserved
+                &copy; Copyright <a href="https://kp-technologies.com"><strong>KpTechnologies</strong></a>. All Rights
+                Reserved
             </div>
             <div class="credits">
 

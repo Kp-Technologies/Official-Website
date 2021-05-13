@@ -89,51 +89,73 @@
     </script>
 </head>
 
-<body>
+<body class="serviceinfo">
 
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top d-flex align-items-center header-transparent">
         <div class="container d-flex align-items-center">
 
             <!-- Uncomment below if you prefer to use an image logo -->
-            <a href="index" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+            <a href="https://kp-technologies.com/" class="logo me-auto logowhite"><img src="assets/img/logo white.png"
+                    alt="" class="img-fluid"></a>
+            <a href="https://kp-technologies.com/" class="logo me-auto logoblack"><img src="assets/img/logo.png" alt=""
+                    class="img-fluid"></a>
 
             <nav id="navbar" class="navbar order-last order-lg-0">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="index">Home</a></li>
-                    <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+                    <li><a class="nav-link scrollto active homelinks" href="https://kp-technologies.com">Home</a></li>
+                    <li class="dropdown "><a href="#" class="homelinks"><span>Services</span> <i
+                                class="bi bi-chevron-down"></i></a>
                         <ul class="dropdown-active">
                             <li><a href="android_development">App Development</a></li>
                             <li><a href="website_development">Websites </a></li>
+                            <li><a href="uiuxdesign">UI/UX Design </a></li>
                             <li><a href="erp_solutions">ERP Solutions</a></li>
-                            <li><a href="seo">SEO Optimization</a></li>
+                            <li><a href="seo">SEO Ranking</a></li>
                             <li><a href="itconsultancy">IT Consultancy</a></li>
                             <li><a href="rnd">R&D Support</a></li>
+                            <li data-bs-toggle="modal" data-bs-target="#buy-ticket-modal"><a>Web Hosting</a></li>
+                            <li data-bs-toggle="modal" data-bs-target="#buy-ticket-modal"><a>IT Training</a>
+                            </li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#" class="homelinks"><span>Products</span> <i
+                                class="bi bi-chevron-down"></i></a>
                         <ul class="dropdown-active">
-                            <li><a href="website_development">Ready-To-Use Websites</a></li>
-                            <li><a href="ecommerce">Ecommerce Solution </a></li>
-                            <li><a href="onlineexam">Online Examination System</a></li>
-                            <li><a href="educationalerp">Educational ERP/CMS/CRM</a></li>
+                            <li><a href="ecommerce">Ecommerce Solution
+                                </a></li>
+                            <li><a href="erp_solutions">Business ERP </a>
+                            </li>
+                            <li><a href="onlineexam">Online Examination
+                                    System</a></li>
+                            <li><a href="educationalerp">Educational ERP</a></li>
+                            <li><a href="seo">SEO Ranking</a>
+                            </li>
+                            <li><a href="website_development">Persnol App/Site</a></li>
+                            <li><a href="" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal">CRM/CMS</a></li>
+                            <li><a href="" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal">Advertisement
+                                    Material</a></li>
                             <li><a href="billinginvoice">Billing & Invoice Solution</a></li>
-                            <li><a href="seo">SEO Optimization</a></li>
+                            <li><a href="website_development">Ready-To-Use Websites</a></li>
+                            <li><a href="" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal">Cloud Services</a>
+                            </li>
+                            <li><a href="" data-bs-toggle="modal" data-bs-target="#buy-ticket-modal">Promotional
+                                    Videos</a></li>
                         </ul>
                     </li>
-
-                    <li><a class="nav-link scrollto" href="contactus">Contact</a></li>
-
-
+                    <li><a class="nav-link scrollto homelinks" href="contactus">Contact</a></li>
                 </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
+                <i class="bi bi-list mobile-nav-toggle toggleicon"></i>
             </nav>
             <!-- .navbar -->
 
-            <div class="social-links">
-                <a href="tel:7774843561" class="linkedin"><i class="bi bi-telephone-fill"></i></a>
-                <a href="mailto:kptechnologiz@gmail.com" class=""><i class="bi bi-envelope-fill"></i></a>
-                <a href="#feedbackform" class=""><i class="bi bi-chat-left-text-fill"></i></i></a>
+            <div class="social-links navbarsociallinks">
+                <a href="https://www.facebook.com/KPTechnologies-107027698117641/" class="facebook"><i
+                        class="bi bi-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/kunal-pandharkar-513994188/" class="linkedin"><i
+                        class="bi bi-linkedin"></i></a>
+                <a href="https://www.instagram.com/kp_technologies/" class="instagram"><i
+                        class="bi bi-instagram"></i></a>
             </div>
 
         </div>
@@ -147,10 +169,10 @@
             <div class="container">
 
                 <ol>
-                    <li><a href="index">Home</a></li>
-                    <li>IT Consultancy Details</li>
+                    <li><a href="https://kp-technologies.com">Home</a></li>
+                    <li>IT Consultancy</li>
                 </ol>
-                <h2>IT Consultancy</h2>
+                <h2>IT Consultancy Details</h2>
 
             </div>
         </section><!-- End Breadcrumbs -->
@@ -189,24 +211,35 @@
                                 <li><strong>Category</strong>: IT Consultancy</li>
                                 <li><strong>Cost</strong>: 30,000 Onwards</li>
                                 <li><strong>What You Get :</strong></li>
-                                <li>1. Designing, installing and trialling new systems and software, and fixing any
+                                <li><i class="bi bi-check2 tick"></i> Designing, installing and trialling new systems
+                                    and software, and fixing any
                                     issues that arise
                                 </li>
-                                <li>2. Training employees technically & professionaly</li>
-                                <li>3. Making recommendations, such as suggesting appropriate hardware, software and
+                                <li><i class="bi bi-check2 tick"></i> Training employees technically & professionaly
+                                </li>
+                                <li><i class="bi bi-check2 tick"></i> Making recommendations, such as suggesting
+                                    appropriate hardware, software and
                                     systems</li>
-                                <li>4. Managing , compiling & presenting The information digitally</li>
-                                <li>5. Setting up systems & internet connection of offices</li>
-                                <li>6. 2 Year free tech & customer support</li>
-                                <li>7. Analyzing customer feedback & feedForwarding</li>
+                                <li><i class="bi bi-check2 tick"></i> Managing , compiling & presenting The information
+                                    digitally</li>
+                                <li><i class="bi bi-check2 tick"></i> Setting up systems & internet connection of
+                                    offices</li>
+                                <li><i class="bi bi-check2 tick"></i> 2 Year free tech & customer support</li>
+                                <li><i class="bi bi-check2 tick"></i> Analyzing customer feedback & feedForwarding</li>
 
 
                             </ul>
-                        </div>
-                        <div class="portfolio-description text-center">
-                            <div>
+                            <div class="text-center">
                                 <a href="tel:7774843561" id="discussbtn" class="btn-get-started scrollto">Discuss</a>
                             </div>
+                        </div>
+                        <div class="portfolio-description text-center">
+                            <h2>IT Consultancy</h2>
+                            <p>
+                                Get effective strategy for managing your business operations, data
+                                and get full time support with our IT Consultancy
+                            </p>
+
                         </div>
                     </div>
 
@@ -218,8 +251,9 @@
     </main><!-- End #main -->
 
 
+
     <!-- ======= Footer ======= -->
-    <footer id="footer" class="section-bg">
+    <footer id="footer" class="">
         <div class="footer-top">
             <div class="container">
 
@@ -232,8 +266,8 @@
                             <div class="col-sm-6">
 
                                 <div class="footer-info">
-                                    <a href="index" class="logo me-auto"><img src="assets/img/logo.png" alt=""
-                                            class="img-fluid"></a>
+                                    <a href="https://kp-technologies.com/" class="logo me-auto"><img
+                                            src="assets/img/logo white.png" alt="" class="img-fluid"></a>
 
                                     <p>We are here to provide everything for your Business and to facilitate you.
                                         KpTechnologies will make your business endless and worryless !
@@ -242,8 +276,9 @@
 
                                 <div class="footer-newsletter">
                                     <h4>Our Newsletter</h4>
-                                    <p>We are here to provide everything for your Business and to facilitate you.
-                                        KpTechnologies will make your business endless and worryless !
+                                    <p>
+                                        Sign up to our newsletter, so you can be the first to find out the latest news
+                                        and tips about our applications, as well as general updates !
                                     </p>
                                     <form action="" method="post">
                                         <input type="email" name="email"><input type="submit" value="Subscribe">
@@ -256,12 +291,17 @@
                                 <div class="footer-links">
                                     <h4>Useful Links</h4>
                                     <ul>
-                                        <li><a href="index">Home</a></li>
-                                        <li><a href="index#services">Services</a></li>
-                                        <li><a href="index#why-us">About us</a></li>
-                                        <li><a href="android_development">Android apps</a></li>
-                                        <li><a href="website_development">Websites</a></li>
-
+                                        <li><i class="bi bi-chevron-right rightarr"></i> <a
+                                                href="https://kp-technologies.com#hero">Home</a></li>
+                                        <li><i class="bi bi-chevron-right rightarr"></i> <a
+                                                href="https://kp-technologies.com#services">Services</a>
+                                        </li>
+                                        <li><i class="bi bi-chevron-right rightarr"></i> <a
+                                                href="https://kp-technologies.com#features">Products</a></li>
+                                        <li><i class="bi bi-chevron-right rightarr"></i> <a
+                                                href="android_development">Android apps</a></li>
+                                        <li><i class="bi bi-chevron-right rightarr"></i> <a href="website_development">
+                                                Websites</a></li>
                                     </ul>
                                 </div>
 
@@ -300,10 +340,9 @@
                         <div class="form">
 
                             <h4>Send us a message</h4>
-                            <p>We would love to hear from you, feel free to contact us anytime !</p>
+                            <!-- <p>We would love to hear from you, feel free to contact us anytime !</p> -->
 
-                            <form role="form" class="php-email-form" method="POST"
-                                action="https://script.google.com/macros/s/AKfycbz51NXYLHjjWrJUX3bUadfpVGI6BGsq0d0HE9tmBAod8-qTib08r-H5jIWTqLCrE10dkg/exec">
+                            <form role="form" class="php-email-form" method="POST">
                                 <div class="form-group">
                                     <input type="text" name="name" class="form-control" id="name"
                                         placeholder="Your Name" required>
@@ -329,7 +368,7 @@
 
                                 <div class="text-center">
 
-                                    <button type="submit" onclick="sendEmail()" title="Send Message">Send
+                                    <button type="submit" title="Send Message">Send
                                         Message</button>
                                 </div>
                             </form>
@@ -353,7 +392,7 @@
     <!-- End  Footer -->
 
     <!-- ======= Footer ======= -->
-    <footer id="footer" class="section-bg">
+    <footer id="footer" class="pb-4">
         <div class="footer-top">
             <div class="container">
 
@@ -503,9 +542,10 @@
 
         </div>
 
-        <div class="container">
+        <div class="container" id="copyright">
             <div class="copyright">
-                &copy; Copyright <strong>KpTechnologies</strong>. All Rights Reserved
+                &copy; Copyright <a href="https://kp-technologies.com"><strong>KpTechnologies</strong></a>. All Rights
+                Reserved
             </div>
             <div class="credits">
 
